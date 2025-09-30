@@ -53,7 +53,7 @@ if upload_file is not None:
         y="Promedio",
         color="Categoria",
         color_discrete_sequence=px.colors.qualitative.Pastel,
-        title="Ordenado de mayor a menor"
+        # title="Ordenado de mayor a menor"
     )
     st.plotly_chart(figg, use_container_width=True)
 
